@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+
+# Model cache (sentence-transformers büyük dosyalar indirir)
+.cache/
+~/.cache/
+
+# ChromaDB
+chroma/
+
+# VS Code
+.vscode/
